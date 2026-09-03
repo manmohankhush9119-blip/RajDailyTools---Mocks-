@@ -1,0 +1,25 @@
+{
+  "tests": [
+    {
+      "testId": "rdt-demo-mock01",
+      "displayName": "RajDailyTools Demo Competitive Exam 2026 - Mock 01",
+      "organization": "RajDailyTools",
+      "format": "split",
+      "configPath": "data/exam.json",
+      "questionsPath": "data/questions.json",
+      "isPaid": false,
+      "isLocked": false,
+      "summary": { "totalQuestions": 20, "totalMarks": 20, "durationMinutes": 20 }
+    },
+    {
+      "testId": "rdt-demo-mock02",
+      "displayName": "RajDailyTools Demo Competitive Exam 2026 - Mock 02",
+      "organization": "RajDailyTools",
+      "format": "combined",
+      "combinedPath": "data/rdt-demo/mock-02.json",
+      "isPaid": true,
+      "isLocked": true,
+      "summary": { "totalQuestions": 8, "totalMarks": 10, "durationMinutes": 10 }
+    }
+  ]
+}

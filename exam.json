@@ -1,0 +1,83 @@
+{
+  "examId": "rdt-demo-2026",
+  "mockId": "mock-01",
+  "examName": "RajDailyTools Demo Competitive Exam 2026",
+  "organization": "RajDailyTools",
+  "year": 2026,
+  "totalQuestions": 20,
+  "totalMarks": 20,
+  "durationMinutes": 20,
+  "languages": ["en", "hi"],
+  "defaultLanguage": "en",
+  "defaultMarksPerQuestion": 1,
+  "negativeMarking": {
+    "enabled": true,
+    "mode": "fraction",
+    "value": 0.25
+  },
+  "sections": [
+    {
+      "id": "reasoning",
+      "name": { "en": "Reasoning", "hi": "तर्कशक्ति" },
+      "questionCount": 5,
+      "marksPerQuestion": 1
+    },
+    {
+      "id": "quant",
+      "name": { "en": "Quantitative Aptitude", "hi": "मात्रात्मक अभियोग्यता" },
+      "questionCount": 5,
+      "marksPerQuestion": 1
+    },
+    {
+      "id": "english",
+      "name": { "en": "English", "hi": "अंग्रेज़ी" },
+      "questionCount": 5,
+      "marksPerQuestion": 1,
+      "negativeMarking": { "enabled": false, "mode": "none", "value": 0 }
+    },
+    {
+      "id": "gk",
+      "name": { "en": "General Awareness", "hi": "सामान्य जागरूकता" },
+      "questionCount": 5,
+      "marksPerQuestion": 1
+    }
+  ],
+  "features": {
+    "calculatorEnabled": true,
+    "notepadEnabled": true,
+    "fullscreenMode": true,
+    "languageSwitchEnabled": true,
+    "fontSizeControlEnabled": true,
+    "themeSwitchEnabled": true,
+    "sectionSwitchingAllowed": true
+  },
+  "resultSettings": {
+    "showSectionWise": true,
+    "showTopicWise": true,
+    "showQuestionReview": true,
+    "showExplanations": true,
+    "revealResultImmediately": true
+  },
+  "access": {
+    "isPaid": false,
+    "requiresUnlock": false
+  },
+  "instructions": {
+    "en": [
+      "This is a demo Computer Based Test (CBT) built with original, non-copyrighted practice questions.",
+      "The test has 4 sections. You may attempt sections in any order unless section switching is disabled.",
+      "Each question carries the marks shown in the question palette; wrong answers may attract negative marking as specified for that section.",
+      "Use \"Save & Next\" to save your response and move on, \"Mark for Review\" to flag a question, and \"Clear Response\" to remove a chosen answer.",
+      "The test will auto-submit when the timer reaches zero. Do not close or refresh the browser tab during the test.",
+      "This is a practice mock test for preparation purposes only and is not affiliated with any government recruitment body."
+    ],
+    "hi": [
+      "यह मूल एवं गैर-कॉपीराइट अभ्यास प्रश्नों के साथ बनाया गया एक डेमो कंप्यूटर आधारित टेस्ट (CBT) है।",
+      "इस टेस्ट में 4 खंड हैं। जब तक सेक्शन स्विचिंग बंद न हो, आप किसी भी क्रम में खंड हल कर सकते हैं।",
+      "प्रत्येक प्रश्न के लिए निर्धारित अंक प्रश्न पैलेट में दिखाए गए हैं; गलत उत्तर पर संबंधित खंड की नकारात्मक अंकन नीति के अनुसार अंक कट सकते हैं।",
+      "उत्तर सुरक्षित कर आगे बढ़ने हेतु \"Save & Next\", प्रश्न को चिह्नित करने हेतु \"Mark for Review\" और चयनित उत्तर हटाने हेतु \"Clear Response\" का उपयोग करें।",
+      "समय समाप्त होने पर टेस्ट स्वतः सबमिट हो जाएगा। टेस्ट के दौरान ब्राउज़र टैब बंद या रिफ्रेश न करें।",
+      "यह केवल अभ्यास हेतु डेमो मॉक टेस्ट है और किसी भी सरकारी भर्ती संस्था से संबद्ध नहीं है।"
+    ]
+  }
+}
